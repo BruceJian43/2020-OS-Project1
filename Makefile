@@ -8,3 +8,5 @@ schedule.o:schedule.c cpustate.h process.h schedule.h
 	gcc -c schedule.c
 clean:
 	rm -f main.o cpustate.o schedule.o b07705054_project1.out
+run:
+	sudo ./b07705054_project1.out
